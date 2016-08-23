@@ -6,7 +6,7 @@ I made this script to automate the backups of my vps. I know there are many serv
 
 In this script I have configured just one vps, but you can configure as many as you want without doing the configuration directly on the vps, you just need direct access to the remote host from your backup vm/vps
 
-###Configuration - local server:
+###Initial configuration - local server:
     ssh-keygen -t rsa # press always enter when asked
     cat ~/.ssh/id_rsa.pub | ssh root@myvps.com -p 1122 "cat >> ~/.ssh/authorized_keys"
     ssh root@myvps.com -p 1122
