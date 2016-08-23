@@ -24,3 +24,8 @@ In this script I have configured just one vps, but you can configure as many as 
 Add the following jobs:
 
     30 2 * * * /srv/automations/vps_backups.sh
+
+### Tested on:
+Centos 6.5 
+
+Centos 7.1
