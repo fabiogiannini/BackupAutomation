@@ -1,4 +1,4 @@
-# LinuxScripts
+# Backup Automation
 Some useful script for automation
 
 ## vps_backups.sh
