@@ -1,5 +1,5 @@
 # Backup Automation
-Some useful script for automation, as a programmer I really care about my code and data so it's very important to keep a copy of everything updated.
+Some useful script for automation, as a programmer I really care about my code, data and services so it's very important to keep a copy of everything updated. 
 
 ## vps_backups.sh
 I made this script to automate the backups of my vps. I know there are many services to create backups directly from provider the control panel or additional services, but I'm using many different vps on different providers so I wanted to have a unique standard and a unique repository for all backups at home.
