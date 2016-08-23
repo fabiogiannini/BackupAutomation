@@ -18,5 +18,6 @@ In this script I have configured just one vps, but you can configure as many as 
     nano /srv/automations/vps_backups.sh
     chmod +x /srv/automations/vps_backups.sh
     
-### Schedule the creation of the backups every night at 2:30am - crontab -e
+### Schedule the creation of the backups every night at 2:30am
+crontab -e
     30 2 * * * /srv/automations/vps_backups.sh
